@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Default Suite">
+    <test name="shouldNotCreateNewClient">
+        <classes>
+            <class name="sales.newClientTest" />
+            <class name="sales.newClientTest" />
+        </classes>
+    </test>
+</suite>
